@@ -1,0 +1,51 @@
+<div class="trade-form-container">
+  <h2>{{ isEdit ? 'Edit Trade' : 'Add New Trade' }}</h2>
+  <form [formGroup]="tradeForm" (ngSubmit)="onSubmit()" novalidate>
+    <div *ngIf="error" class="error">{{ error }}</div>
+    <div *ngIf="loading">Loading...</div>
+    <label>
+      Date:
+      <input type="date" formControlName="tradeDate" [class.ng-invalid]="tradeForm.get('tradeDate')?.invalid && tradeForm.get('tradeDate')?.touched" />
+      <span *ngIf="tradeForm.get('tradeDate')?.invalid && tradeForm.get('tradeDate')?.touched" class="error">Date is required.</span>
+    </label>
+    <label>
+      Instrument:
+      <input type="text" formControlName="instrument" [class.ng-invalid]="tradeForm.get('instrument')?.invalid && tradeForm.get('instrument')?.touched" />
+      <span *ngIf="tradeForm.get('instrument')?.invalid && tradeForm.get('instrument')?.touched" class="error">Instrument is required.</span>
+    </label>
+    <label>
+      Quantity:
+      <input type="number" formControlName="quantity" [class.ng-invalid]="tradeForm.get('quantity')?.invalid && tradeForm.get('quantity')?.touched" />
+      <span *ngIf="tradeForm.get('quantity')?.invalid && tradeForm.get('quantity')?.touched" class="error">Quantity must be at least 1.</span>
+    </label>
+    <label>
+      Price:
+      <input type="number" formControlName="price" step="0.01" [class.ng-invalid]="tradeForm.get('price')?.invalid && tradeForm.get('price')?.touched" />
+      <span *ngIf="tradeForm.get('price')?.invalid && tradeForm.get('price')?.touched" class="error">Price must be at least 0.</span>
+    </label>
+    <label>
+      Side:
+      <select formControlName="side" [class.ng-invalid]="tradeForm.get('side')?.invalid && tradeForm.get('side')?.touched">
+        <option value="BUY">BUY</option>
+        <option value="SELL">SELL</option>
+      </select>
+      <span *ngIf="tradeForm.get('side')?.invalid && tradeForm.get('side')?.touched" class="error">Side is required.</span>
+    </label>
+    <label>
+      Counterparty:
+      <input type="text" formControlName="counterparty" [class.ng-invalid]="tradeForm.get('counterparty')?.invalid && tradeForm.get('counterparty')?.touched" />
+      <span *ngIf="tradeForm.get('counterparty')?.invalid && tradeForm.get('counterparty')?.touched" class="error">Counterparty is required.</span>
+    </label>
+    <label>
+      Trader:
+      <input type="text" formControlName="trader" [class.ng-invalid]="tradeForm.get('trader')?.invalid && tradeForm.get('trader')?.touched" />
+      <span *ngIf="tradeForm.get('trader')?.invalid && tradeForm.get('trader')?.touched" class="error">Trader is required.</span>
+    </label>
+    <label>
+      Status:
+      <input type="text" formControlName="status" />
+    </label>
+    <button type="submit" [disabled]="tradeForm.invalid || loading">{{ isEdit ? 'Update' : 'Add' }} Trade</button>
+    <button type="button" (click)="cancel()">Cancel</button>
+  </form>
+</div>

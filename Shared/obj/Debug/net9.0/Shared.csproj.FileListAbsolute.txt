@@ -10,3 +10,4 @@ D:\Cloud\PortfolioPNL\Shared\obj\Debug\net9.0\Shared.dll
 D:\Cloud\PortfolioPNL\Shared\obj\Debug\net9.0\refint\Shared.dll
 D:\Cloud\PortfolioPNL\Shared\obj\Debug\net9.0\Shared.pdb
 D:\Cloud\PortfolioPNL\Shared\obj\Debug\net9.0\ref\Shared.dll
+D:\Cloud\PortfolioPNL\Shared\obj\Debug\net9.0\Shared.sourcelink.json

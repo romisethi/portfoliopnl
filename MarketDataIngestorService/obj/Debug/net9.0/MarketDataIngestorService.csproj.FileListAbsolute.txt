@@ -83,3 +83,4 @@ D:\Cloud\PortfolioPNL\MarketDataIngestorService\obj\Debug\net9.0\refint\MarketDa
 D:\Cloud\PortfolioPNL\MarketDataIngestorService\obj\Debug\net9.0\MarketDataIngestorService.pdb
 D:\Cloud\PortfolioPNL\MarketDataIngestorService\obj\Debug\net9.0\MarketDataIngestorService.genruntimeconfig.cache
 D:\Cloud\PortfolioPNL\MarketDataIngestorService\obj\Debug\net9.0\ref\MarketDataIngestorService.dll
+D:\Cloud\PortfolioPNL\MarketDataIngestorService\obj\Debug\net9.0\MarketDataIngestorService.sourcelink.json

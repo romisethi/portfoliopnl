@@ -1,0 +1,38 @@
+<div class="trade-list-container">
+  <h2>Trades</h2>
+  <button (click)="addTrade()">Add New Trade</button>
+  <div *ngIf="loading">Loading...</div>
+  <div *ngIf="error" class="error">{{ error }}</div>
+  <table *ngIf="trades.length">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Instrument</th>
+        <th>Quantity</th>
+        <th>Price</th>
+        <th>Side</th>
+        <th>Counterparty</th>
+        <th>Trader</th>
+        <th>Status</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let trade of trades">
+        <td>{{ trade.tradeDate | date:'short' }}</td>
+        <td>{{ trade.instrument }}</td>
+        <td>{{ trade.quantity }}</td>
+        <td>{{ trade.price }}</td>
+        <td>{{ trade.side }}</td>
+        <td>{{ trade.counterparty }}</td>
+        <td>{{ trade.trader }}</td>
+        <td>{{ trade.status }}</td>
+        <td>
+          <button (click)="editTrade(trade.id)">Edit</button>
+          <button (click)="deleteTrade(trade.id)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div *ngIf="!loading && !trades.length">No trades found.</div>
+</div>

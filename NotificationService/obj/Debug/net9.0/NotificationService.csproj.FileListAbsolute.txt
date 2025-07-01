@@ -91,3 +91,4 @@ D:\Cloud\PortfolioPNL\NotificationService\obj\Debug\net9.0\refint\NotificationSe
 D:\Cloud\PortfolioPNL\NotificationService\obj\Debug\net9.0\NotificationService.pdb
 D:\Cloud\PortfolioPNL\NotificationService\obj\Debug\net9.0\NotificationService.genruntimeconfig.cache
 D:\Cloud\PortfolioPNL\NotificationService\obj\Debug\net9.0\ref\NotificationService.dll
+D:\Cloud\PortfolioPNL\NotificationService\obj\Debug\net9.0\NotificationService.sourcelink.json

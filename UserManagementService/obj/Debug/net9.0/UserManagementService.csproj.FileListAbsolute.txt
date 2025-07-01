@@ -91,3 +91,4 @@ D:\Cloud\PortfolioPNL\UserManagementService\obj\Debug\net9.0\refint\UserManageme
 D:\Cloud\PortfolioPNL\UserManagementService\obj\Debug\net9.0\UserManagementService.pdb
 D:\Cloud\PortfolioPNL\UserManagementService\obj\Debug\net9.0\UserManagementService.genruntimeconfig.cache
 D:\Cloud\PortfolioPNL\UserManagementService\obj\Debug\net9.0\ref\UserManagementService.dll
+D:\Cloud\PortfolioPNL\UserManagementService\obj\Debug\net9.0\UserManagementService.sourcelink.json

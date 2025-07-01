@@ -1,0 +1,25 @@
+<p>signup works!</p>
+<div class="user-form-container">
+  <h2>Sign Up</h2>
+  <form [formGroup]="signupForm" (ngSubmit)="onSubmit()" novalidate>
+    <div *ngIf="error" class="error">{{ error }}</div>
+    <div *ngIf="loading">Loading...</div>
+    <label>
+      Username:
+      <input type="text" formControlName="username" [class.ng-invalid]="signupForm.get('username')?.invalid && signupForm.get('username')?.touched" />
+      <span *ngIf="signupForm.get('username')?.invalid && signupForm.get('username')?.touched" class="error">Username is required.</span>
+    </label>
+    <label>
+      Password:
+      <input type="password" formControlName="password" [class.ng-invalid]="signupForm.get('password')?.invalid && signupForm.get('password')?.touched" />
+      <span *ngIf="signupForm.get('password')?.invalid && signupForm.get('password')?.touched" class="error">Password is required (min 6 chars).</span>
+    </label>
+    <label>
+      Confirm Password:
+      <input type="password" formControlName="confirmPassword" [class.ng-invalid]="signupForm.get('confirmPassword')?.invalid && signupForm.get('confirmPassword')?.touched || (signupForm.value.password !== signupForm.value.confirmPassword && signupForm.get('confirmPassword')?.touched)" />
+      <span *ngIf="signupForm.get('confirmPassword')?.invalid && signupForm.get('confirmPassword')?.touched" class="error">Confirm password is required.</span>
+      <span *ngIf="signupForm.value.password !== signupForm.value.confirmPassword && signupForm.get('confirmPassword')?.touched" class="error">Passwords do not match.</span>
+    </label>
+    <button type="submit" [disabled]="signupForm.invalid || signupForm.value.password !== signupForm.value.confirmPassword || loading">Sign Up</button>
+  </form>
+</div>

@@ -97,3 +97,4 @@ D:\Cloud\PortfolioPNL\AlertingService\obj\Debug\net9.0\refint\AlertingService.dl
 D:\Cloud\PortfolioPNL\AlertingService\obj\Debug\net9.0\AlertingService.pdb
 D:\Cloud\PortfolioPNL\AlertingService\obj\Debug\net9.0\AlertingService.genruntimeconfig.cache
 D:\Cloud\PortfolioPNL\AlertingService\obj\Debug\net9.0\ref\AlertingService.dll
+D:\Cloud\PortfolioPNL\AlertingService\obj\Debug\net9.0\AlertingService.sourcelink.json

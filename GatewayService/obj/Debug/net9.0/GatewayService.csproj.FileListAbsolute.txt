@@ -93,3 +93,4 @@ D:\Cloud\PortfolioPNL\GatewayService\obj\Debug\net9.0\refint\GatewayService.dll
 D:\Cloud\PortfolioPNL\GatewayService\obj\Debug\net9.0\GatewayService.pdb
 D:\Cloud\PortfolioPNL\GatewayService\obj\Debug\net9.0\GatewayService.genruntimeconfig.cache
 D:\Cloud\PortfolioPNL\GatewayService\obj\Debug\net9.0\ref\GatewayService.dll
+D:\Cloud\PortfolioPNL\GatewayService\obj\Debug\net9.0\GatewayService.sourcelink.json

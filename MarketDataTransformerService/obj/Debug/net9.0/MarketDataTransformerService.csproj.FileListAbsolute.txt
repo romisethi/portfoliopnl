@@ -97,3 +97,4 @@ D:\Cloud\PortfolioPNL\MarketDataTransformerService\obj\Debug\net9.0\refint\Marke
 D:\Cloud\PortfolioPNL\MarketDataTransformerService\obj\Debug\net9.0\MarketDataTransformerService.pdb
 D:\Cloud\PortfolioPNL\MarketDataTransformerService\obj\Debug\net9.0\MarketDataTransformerService.genruntimeconfig.cache
 D:\Cloud\PortfolioPNL\MarketDataTransformerService\obj\Debug\net9.0\ref\MarketDataTransformerService.dll
+D:\Cloud\PortfolioPNL\MarketDataTransformerService\obj\Debug\net9.0\MarketDataTransformerService.sourcelink.json

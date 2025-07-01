@@ -91,3 +91,4 @@ D:\Cloud\PortfolioPNL\TradeLoggingService\obj\Debug\net9.0\refint\TradeLoggingSe
 D:\Cloud\PortfolioPNL\TradeLoggingService\obj\Debug\net9.0\TradeLoggingService.pdb
 D:\Cloud\PortfolioPNL\TradeLoggingService\obj\Debug\net9.0\TradeLoggingService.genruntimeconfig.cache
 D:\Cloud\PortfolioPNL\TradeLoggingService\obj\Debug\net9.0\ref\TradeLoggingService.dll
+D:\Cloud\PortfolioPNL\TradeLoggingService\obj\Debug\net9.0\TradeLoggingService.sourcelink.json

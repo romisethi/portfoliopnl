@@ -91,3 +91,4 @@ D:\Cloud\PortfolioPNL\SentimentAnalysisService\obj\Debug\net9.0\refint\Sentiment
 D:\Cloud\PortfolioPNL\SentimentAnalysisService\obj\Debug\net9.0\SentimentAnalysisService.pdb
 D:\Cloud\PortfolioPNL\SentimentAnalysisService\obj\Debug\net9.0\SentimentAnalysisService.genruntimeconfig.cache
 D:\Cloud\PortfolioPNL\SentimentAnalysisService\obj\Debug\net9.0\ref\SentimentAnalysisService.dll
+D:\Cloud\PortfolioPNL\SentimentAnalysisService\obj\Debug\net9.0\SentimentAnalysisService.sourcelink.json

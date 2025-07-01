@@ -91,3 +91,4 @@ D:\Cloud\PortfolioPNL\PnLCalculatorService\obj\Debug\net9.0\refint\PnLCalculator
 D:\Cloud\PortfolioPNL\PnLCalculatorService\obj\Debug\net9.0\PnLCalculatorService.pdb
 D:\Cloud\PortfolioPNL\PnLCalculatorService\obj\Debug\net9.0\PnLCalculatorService.genruntimeconfig.cache
 D:\Cloud\PortfolioPNL\PnLCalculatorService\obj\Debug\net9.0\ref\PnLCalculatorService.dll
+D:\Cloud\PortfolioPNL\PnLCalculatorService\obj\Debug\net9.0\PnLCalculatorService.sourcelink.json
