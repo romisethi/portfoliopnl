@@ -1,0 +1,6 @@
+@PnLCalculatorService_HostAddress = http://localhost:5139
+
+GET {{PnLCalculatorService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

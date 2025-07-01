@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "vBM6wzw3KPq7Df2YXdz7rAeu83DPcavQsWwa/KlcZo4=",
+  "Source": "MarketDataTransformerService",
+  "BasePath": "_content/MarketDataTransformerService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

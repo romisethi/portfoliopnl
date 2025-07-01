@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "oGnsCIEazBZBgSMopmWSMqUnKAS6+PNGtIdWDCqKPgk=",
+  "Source": "MarketDataIngestorService",
+  "BasePath": "_content/MarketDataIngestorService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

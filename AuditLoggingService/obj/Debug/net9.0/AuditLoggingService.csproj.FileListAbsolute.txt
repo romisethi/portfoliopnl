@@ -1,0 +1,7 @@
+D:\Cloud\PortfolioPNL\AuditLoggingService\obj\Debug\net9.0\AuditLoggingService.csproj.AssemblyReference.cache
+D:\Cloud\PortfolioPNL\AuditLoggingService\obj\Debug\net9.0\AuditLoggingService.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cloud\PortfolioPNL\AuditLoggingService\obj\Debug\net9.0\AuditLoggingService.AssemblyInfoInputs.cache
+D:\Cloud\PortfolioPNL\AuditLoggingService\obj\Debug\net9.0\AuditLoggingService.AssemblyInfo.cs
+D:\Cloud\PortfolioPNL\AuditLoggingService\obj\Debug\net9.0\AuditLoggingService.csproj.CoreCompileInputs.cache
+D:\Cloud\PortfolioPNL\AuditLoggingService\obj\Debug\net9.0\AuditLoggingService.MvcApplicationPartsAssemblyInfo.cs
+D:\Cloud\PortfolioPNL\AuditLoggingService\obj\Debug\net9.0\AuditLoggingService.MvcApplicationPartsAssemblyInfo.cache

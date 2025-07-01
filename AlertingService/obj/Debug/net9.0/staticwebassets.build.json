@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Vix8+eznUGPJCFyrurEJM98nbvumQCEka1Gf3fvqM8k=",
+  "Source": "AlertingService",
+  "BasePath": "_content/AlertingService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

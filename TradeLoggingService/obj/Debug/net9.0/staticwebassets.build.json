@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "r6LqVzD7NVv3pe7Ipuoj2dNbYVcrMogsVnTu267rT1o=",
+  "Source": "TradeLoggingService",
+  "BasePath": "_content/TradeLoggingService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

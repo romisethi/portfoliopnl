@@ -1,0 +1,6 @@
+@MarketDataIngestorService_HostAddress = http://localhost:5208
+
+GET {{MarketDataIngestorService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
