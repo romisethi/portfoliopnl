@@ -1,0 +1,22 @@
+# Ignore all bin and obj folders recursively
+**/bin/
+**/obj/
+
+# Ignore Debug/Release folders anywhere
+**/Debug/
+**/Release/
+
+# Ignore temporary NUnit or test runner files
+**/nunit_*.tmp
+
+# Optional: Ignore test result files
+TestResult.xml
+TestResults/
+**/TestResults/
+
+# Optional: Ignore build artifacts by tooling
+*.vs/
+.vscode/
+*.user
+*.suo
+*.cache/
