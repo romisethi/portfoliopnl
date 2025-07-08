@@ -1,5 +1,8 @@
 <div class="trade-form-container">
   <h2>{{ isEdit ? 'Edit Trade' : 'Add New Trade' }}</h2>
+  <div *ngIf="tradeForm.get('tradeDate')?.value">
+    Selected Date: {{ tradeForm.get('tradeDate')?.value | date:'shortDate' }}
+  </div>
   <form [formGroup]="tradeForm" (ngSubmit)="onSubmit()" novalidate>
     <div *ngIf="error" class="error">{{ error }}</div>
     <div *ngIf="loading">Loading...</div>

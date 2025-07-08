@@ -1,15 +1,16 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { TradeService } from '../../../services/trade';
 import { Trade } from '../trade.model';
+import { DatePipe } from '@angular/common';
 
 @Component({
   selector: 'app-trade-form',
   templateUrl: './trade-form.html',
   styleUrl: './trade-form.scss',
   standalone: true,
-  imports: []
+  imports: [ReactiveFormsModule, DatePipe]
 })
 export class TradeForm implements OnInit {
   tradeForm: FormGroup;

@@ -1,0 +1,56 @@
+Zscalar
+siemens 
+Capgemini 
+congnizant 
+infosys 
+tcs
+UHG 
+optum
+Nagarrow
+JP Morgan 
+Citi 
+Amex
+Barclays
+Wipro
+Persistent Systems
+HCL 
+LTI Mindtree
+Mindtree
+Mphasis
+KPIT
+FIS
+Fiserv
+EY
+Deloitte 
+Accenture
+L&T Infotech 
+Tech M
+IBM
+VISA 
+Master Card 
+BMC
+HSBC
+wolters kluwer
+amdocs
+walmart labs
+paypal
+Luxsoft 
+Emerson
+Eaton 
+EVRY 
+Epam
+Dassault systemes
+Synechron
+Global Logic
+Naunce
+Brillio
+Crowd Strike
+Valuelabs
+Precisely
+DBS 
+Palo Alto 
+Sopra setia
+
+
+
+
